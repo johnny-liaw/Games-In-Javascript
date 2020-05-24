@@ -1,0 +1,86 @@
+.checkBoard {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.championDiv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 300px;
+  left: 150px;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.squareStyle {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+}
+
+.squareCrossStyle {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.squareCircleStyle {
+  background-color: purple;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pieces {
+  position: absolute;
+  top: 80px;
+  left: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dragEnterSquare {
+  background-color: rgb(0, 0, 0, 0.15);
+}
+
+.dragLeaveSquare {
+  background-color: red;
+}
+
+.cross {
+  width: 100px;
+  height: 100px;
+}
+
+.circle {
+  position: absolute;
+  left: 120px;
+  top: -6px;
+  width: 100px;
+  height: 120px;
+  background-repeat: no-repeat;
+}
+
+.titleWord {
+  padding-left: 25px;
+}
+
+.champion {
+  padding-left: 10px;
+}
